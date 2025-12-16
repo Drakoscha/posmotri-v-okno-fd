@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -16,6 +17,46 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  max-width: 1140px; 
+  gap: 30px;  
+}
+
+.result {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content__details {
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+  gap: 15px;
+}
+
+.search-form {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+}
+
+.content__list-container {
+  max-height: 298px;
+  overflow: scroll;
+}
+
+.result__video-container {
+  width: 711;
+  height: 386;
+
+
 }
 
 h1,
